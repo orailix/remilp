@@ -1,0 +1,27 @@
+[workspace]
+channels = ["conda-forge"]
+name = "remilp"
+platforms = ["linux-64", "linux-aarch64"]
+version = "0.1.0"
+
+[dependencies]
+python = "3.13.*"
+numpy = ">=2.4.3,<3"
+tqdm = ">=4"
+zstandard = ">=0.25.0,<0.26"
+optuna = ">=5.0.0,<6"
+huggingface_hub = ">=1.30.0,<2"
+
+[pypi-dependencies]
+torch_geometric = ">=2.7.0, <3"
+torch = ">=2.1.0"
+remilp = { path = ".", editable = true }
+
+[feature.analysis.dependencies]
+matplotlib = ">=3.10.9,<4"
+pyscipopt = ">=6.1.0,<7"
+libstdcxx-ng = ">=13"
+
+[environments]
+default = { solve-group = "default" }
+analysis = { features = ["analysis"], solve-group = "default" }
