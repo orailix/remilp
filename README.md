@@ -36,3 +36,7 @@ pixi run python paper/probes.py
 ```
 
 Pretraining requires a GPU with about 30 GB of VRAM. Each frozen evaluation keeps up to 10 GB of embeddings in host memory (`eval.cache_gb`).
+
+## Dataset
+
+The data used in our experiments can be found in the hugging face repo [orailix/remilp-data](https://huggingface.co/datasets/orailix/remilp-data). All instances are re-distributed under their original licenses. Refer to `DATA_LICENSE.md` for more details.
