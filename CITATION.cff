@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper below."
+title: "ReMILP: Reformulation-Contrastive Learning for Mixed Integer Programs"
+type: software
+authors:
+  - family-names: Bouaneni
+    given-names: Ousema
+  - family-names: Le Bail
+    given-names: Mathis
+  - family-names: Elliker
+    given-names: Clément
+  - family-names: Jenny
+    given-names: Maël
+  - family-names: Vanier
+    given-names: Sonia
+repository-code: "https://github.com/orailix/remilp"
+url: "https://github.com/orailix/remilp"
+date-released: 2026-10-01
+preferred-citation:
+  type: article
+  title: "Reformulation-Contrastive Learning for Mixed Integer Programs"
+  authors:
+    - family-names: Bouaneni
+      given-names: Ousema
+    - family-names: Le Bail
+      given-names: Mathis
+    - family-names: Elliker
+      given-names: Clément
+    - family-names: Jenny
+      given-names: Maël
+    - family-names: Vanier
+      given-names: Sonia
+  year: 2026
+  journal: "arXiv preprint arXiv:2610.00730"
+  url: "https://arxiv.org/abs/2610.00730"

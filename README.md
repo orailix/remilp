@@ -40,3 +40,21 @@ Pretraining requires a GPU with about 30 GB of VRAM. Each frozen evaluation keep
 ## Dataset
 
 The data used in our experiments can be found in the hugging face repo [orailix/remilp-data](https://huggingface.co/datasets/orailix/remilp-data). All instances are re-distributed under their original licenses. Refer to `DATA_LICENSE.md` for more details.
+
+
+## Citation
+
+If you use this code in your research, please cite our paper:
+
+```bibtex
+@misc{bouaneni2026reformulationcontrastivelearningmixedinteger,
+      title={Reformulation-Contrastive Learning for Mixed Integer Programs},
+      author={Ousema Bouaneni and Mathis Le Bail and Clément Elliker and Maël Jenny and Sonia Vanier},
+      year={2026},
+      eprint={2610.00730},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2610.00730},
+}
+```
+
